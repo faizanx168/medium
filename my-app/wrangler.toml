@@ -2,8 +2,8 @@ name = "my-app"
 compatibility_date = "2023-12-01"
 
 [vars]
-DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMGFmZTQ5ZGEtOWQ4Zi00MDdmLThhZDgtYjM1MjA3YTUzODMzIiwidGVuYW50X2lkIjoiZWVkNzEwMGU2MTQ1OWFkZDA4MmNhYWFhOTcwYzBjY2I0ODAxOGQ4OWZlMzc3ZjVjM2Y0NzQ4MzAzOGRiNTdkYyIsImludGVybmFsX3NlY3JldCI6ImVkOGMxYWQxLWYyYmUtNGQ0Ny1hMDMxLWY1YmE3YWZiN2RiYyJ9.4v5wuzIeP966H0_OsFWjwRk3z328tx86gGlgiLk7KME"
-JWT_SECRET = "prod_jwt_secret_Faizanx168"
+DATABASE_URL = ""
+JWT_SECRET =""
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
