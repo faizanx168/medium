@@ -11,7 +11,7 @@ const userRouter = new Hono<{
   };
 }>();
 
-userRouter.post("/api/v1/user/signin", async (c) => {
+userRouter.post("/signin", async (c) => {
   const body = await c.req.json();
   const { success } = signinInput.safeParse(body);
   if (!success) {
@@ -49,7 +49,7 @@ userRouter.post("/api/v1/user/signin", async (c) => {
   }
 });
 
-userRouter.post("/api/v1/user/signup", async (c) => {
+userRouter.post("/signup", async (c) => {
   const body = await c.req.json();
   const { success } = signupInput.safeParse(body);
   if (!success) {
