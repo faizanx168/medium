@@ -47,7 +47,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
             {type === "signup" ? (
               <LabelledInput
                 label={"Name"}
-                placeholder={"Faizan Abbasi..."}
+                placeholder={"Jhon Doe..."}
                 onChange={(e) => {
                   setPostInputs({
                     ...postInputs,
@@ -58,7 +58,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
             ) : null}
             <LabelledInput
               label={"Username"}
-              placeholder={"abcd..."}
+              placeholder={"abcd@gmail.com..."}
               onChange={(e) => {
                 setPostInputs({
                   ...postInputs,
@@ -68,7 +68,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
             />
             <LabelledInput
               label={"Password"}
-              placeholder={"atleast 8 characters"}
+              placeholder={"atleast 6 characters"}
               onChange={(e) => {
                 setPostInputs({
                   ...postInputs,

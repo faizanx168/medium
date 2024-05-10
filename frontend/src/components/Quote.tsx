@@ -4,14 +4,13 @@ export const Quote = () => {
       <div className="flex justify-center">
         <div className="max-w-lg ">
           <div className=" text-2xl font-bold">
-            "The Customer support I recieved was exceptional. The support team
-            went above and beyond to address my concerns."
+            "Exploring the depths of web development challenges not only our
+            skills but also our creativity. It's where innovative solutions are
+            born."
           </div>
-          <div className="max-w-lg text-xl  font-semibold mt-4">
-            Tomas Alfred
-          </div>
+          <div className="max-w-lg text-xl  font-semibold mt-4">Tony Stark</div>
           <div className="max-w-lg text-sm   font-semibold font-light">
-            CEO | Acme Corp
+            CEO | AWD
           </div>
         </div>
       </div>
